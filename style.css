@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.first-part{
+background-image: url("images/header-bg.png");
+height: 1000px;
+background-repeat: no-repeat;
+padding-top: 100px;
+background-clip: padding-box;
+
+}
+h2{
+    font-size: 50px;
+    font-weight: 100;
+}
+h1{
+    font-size: 65px;
+    font-weight: bold;
+    transition: 2s;
+    color: rgb(0, 153, 255);
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    padding: 2%;
+
+}
+
+#intro{
+    margin-top: 100px;
+ 
+}
+
+.my-pic1{
+    width: 100%;
+   
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(248, 225, 19), rgb(252, 113, 0));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+   
+}
+.link-button:hover{
+    transition: .3s;
+    font-size: 20px;
+}
+.second-part{
+    background-image: url("images/biography-bg.png");
+    height: 1000px;
+    background-repeat: no-repeat;
+   
+ }
+ #bio{
+     margin-top: 150px;
+     overflow-y: auto;
+     height: 300px;
+     margin-bottom: 50px;  
+        
+       
+}
+
+.third-part{
+    background-image: url("images/latest-work-bg.png");
+    height: 1000px;
+    background-repeat: no-repeat;
+    padding-right: 5% ;
+    padding-left: 5%;
+    padding-top: 150px;
+    background-clip: padding-box;
+    margin-top:-100px;
+    }
+ 
+ .center-text {
+    text-align: center !important ;
+      
+}
+
+.work-photos{
+    width: 30%; 
+    margin: 90px 15px; 
+    float: left;
+}
+
+.work-photos img{
+    width: 100%;
+}
+.fourth-part{
+    background-image: url("images/footer-bg.png");
+    height: 900px;
+    background-repeat: no-repeat;
+    margin-top: -150px;
+  
+
+}
+.footer-text{
+    font-size: 25px;
+}
+.email{
+    font-size: 40px;
+    color: white;
+}
+#email-button{
+    text-align: center;
+    color: white;
+    width: 35%;
+    margin-left: 350px;
+    margin-top: 70px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(37, 213, 236), rgb(0, 101, 252));
+    padding: 40px 150px 70px 150px;
+    border-radius: 12px;
+
+
+
+}
+footer p{
+    margin-top: 100px;
+    text-align: center;
+}
